@@ -1,0 +1,25 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "a team profile generator ",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyomideAwonaya21/team-profile-generator.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Ayomide Awonaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyomideAwonaya21/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/AyomideAwonaya21/team-profile-generator#readme"
+}
