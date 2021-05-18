@@ -1,8 +1,8 @@
 const inquirer = require("inquirer");
-const Manager = require("./lib/Manager.js");
-const Engineer = require("./lib/Engineer.js");
-const Intern = require("./lib/Intern.js");
-const htmlBlocks = require("./lib/htmlBlocks.js");
+const Manager = require("./library/Manager.js");
+const Engineer = require("./library/Engineer.js");
+const Intern = require("./library/Intern.js");
+const htmlBlocks = require("./library/htmlBlocks.js");
 const fs = require("fs");
 const open = require("open");
 
@@ -102,7 +102,7 @@ function buildTeam(){
   });
 }
 function printHTML(team){
-  fs.writeFile("Team.html",team, (err) => {
+  fs.writeFile("Team.html", team.join(""), (err) => {
     if(err) {
       throw err;
     };
